@@ -11,4 +11,13 @@ long_description=long_description,
 long_description_content_type="text/markdown",
 py_modules=["hellopython"],
 package_dir={'':'src'},
+install_requires = [
+    "dnspython ~=2.0.0",
+    "python-consul ~=1.1.0",    
+],
+extras_require = {
+    "dev": [
+        "pytest>=3.7",
+    ],
+},    
 )
