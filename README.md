@@ -6,5 +6,5 @@ Description.
 # usage.
 
 # Development
- pip install -e .
+ pip install -e . <br/>
  pip install -e .[dev]
