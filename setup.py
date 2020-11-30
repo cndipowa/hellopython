@@ -11,7 +11,7 @@ long_description=long_description,
 long_description_content_type="text/markdown",
 url="",
 author="",
-author_email"",
+author_email="",
 py_modules=["hellopython"],
 package_dir={'':'src'},
 install_requires = [
