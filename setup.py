@@ -21,6 +21,7 @@ install_requires = [
 extras_require = {
     "dev": [
         "pytest>=3.7",
+        "twine",
     ],
 },    
 )
